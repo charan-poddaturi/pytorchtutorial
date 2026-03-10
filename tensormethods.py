@@ -40,3 +40,7 @@ print("using eye ->", torch.eye(5))
 
 # using full(3x3 matrix of all 5 valued items)
 print("using full ->", torch.full((3, 3), 5))
+
+
+
+
