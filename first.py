@@ -29,14 +29,14 @@ torch.tensor([[1,2,3],[4,5,6]])
 
 # other ways
 
-# arange
+# arange(initialization,range up to,step)
 print("using arange ->", torch.arange(0,10,2))
 
-# using linspace
+# using linspace(evenly spaced values)
 print("using linspace ->", torch.linspace(0,10,10))
 
-# using eye
+# using eye(identity matric of 5 x 5)
 print("using eye ->", torch.eye(5))
 
-# using full
+# using full(3x3 matrix of all 5 valued items)
 print("using full ->", torch.full((3, 3), 5))
